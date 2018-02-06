@@ -1,0 +1,14 @@
+<p>禁止使用System.out.print()；e.printStackTrace()</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+System.out.println("My Message");// Noncompliant
+try {
+            
+    } catch (Exception e) {
+            e.printStackTrace();// Noncompliant
+    }
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+logger.info("msg")
+</pre>

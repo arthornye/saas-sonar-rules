@@ -1,0 +1,13 @@
+{
+  "title": "枚举成员名称需要全大写，单词间用下划线隔开",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

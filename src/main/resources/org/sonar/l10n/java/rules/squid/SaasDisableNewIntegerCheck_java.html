@@ -1,0 +1,9 @@
+<p>不要使用 new Integer()，应该使用 Integer.valueOf()</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+Integer integer = new Integer(5); // Noncompliant
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+Integer.valueOf(5);
+</pre>

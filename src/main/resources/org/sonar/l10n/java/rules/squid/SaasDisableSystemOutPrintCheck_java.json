@@ -1,0 +1,13 @@
+{
+  "title": "禁止使用System.out.print()；e.printStackTrace()",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

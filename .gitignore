@@ -1,0 +1,17 @@
+*.class
+.classpath
+.project
+.settings/
+target/
+web/target/
+web/src/main/antd/node_modules/
+**/*/target/
+**/*/logs/
+.metadata/
+*.iml
+.idea/
+/.DS_Store
+/velocity.log
+.externalToolBuilders/
+web/bin/
+WEB-INF/velocity/system/

@@ -1,0 +1,13 @@
+{
+  "title": "抽象类命名规则:抽象类命名使用 Abstract 或 Base 开头",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

@@ -1,0 +1,11 @@
+<p>常量命名检查：常量命名全部大写，单词间用下划线隔开，力求语义表达完整清楚，不要嫌名字长</p>
+<h2>Noncompliant Code Example</h2>
+<pre>
+private final static String _NAME;// Noncompliant
+private final static String $NAME;// Noncompliant
+private final static String NA8ME;// Noncompliant
+</pre>
+<h2>Compliant Solution</h2>
+<pre>
+private final static String MY_NAME;
+</pre>

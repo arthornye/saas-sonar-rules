@@ -1,0 +1,27 @@
+<p>定义为基本数据类型Boolean isSuccess的属性，它的方法也是isSuccess()，RPC 框架在反向解析的时候，“以为”对应的属性名称是 success，导致属性获取不到，进而抛出异常。</p>
+<h2>boolean属性生成的方法is开头</h2>
+<pre>
+public class SaasParamStartCheck {
+        private boolean isSuccess;
+
+        public boolean isSuccess() {
+                return isSuccess;
+        }
+
+        public void setSuccess(boolean success) {
+                isSuccess = success;
+        }
+}
+
+</pre>
+<h2>boolean类型属性名不以is开头</h2>
+<pre>
+public class SaasParamStartCheck {
+        private boolean success;
+
+        public boolean getSuccess() {
+                return success;
+        }
+        public void setSuccess(boolean success)
+}
+</pre>

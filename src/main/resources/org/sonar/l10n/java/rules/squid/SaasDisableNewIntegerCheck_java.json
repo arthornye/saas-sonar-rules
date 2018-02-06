@@ -1,0 +1,13 @@
+{
+  "title": "不要使用 new Integer()，应该使用 Integer.valueOf()",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

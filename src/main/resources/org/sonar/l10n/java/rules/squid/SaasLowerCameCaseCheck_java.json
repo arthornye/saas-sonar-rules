@@ -1,0 +1,13 @@
+{
+  "title": "方法名、参数名、成员变量、局部变量都统一使用 lowerCamelCase 风格",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}

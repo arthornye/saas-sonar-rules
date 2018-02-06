@@ -1,0 +1,13 @@
+{
+  "title": "常量命名全部大写，单词间用下划线隔开，力求语义表达完整清楚，不要嫌名字长",
+  "type": "BUG",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "pitfall"
+  ],
+  "defaultSeverity": "Minor"
+}
